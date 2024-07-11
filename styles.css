@@ -1,0 +1,47 @@
+
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+body {
+	background: lightgrey;
+}
+.title {
+    text-align: center;
+    background-color: white;
+}
+.title h1 {
+    margin-top: 0;
+}
+.feed {
+	background: white;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feed-header {
+	display: flex;
+}
+.feed-header h1 {
+	width: 100%;
+	margin: 0;
+    font-size: medium;
+    margin-top: 15px;
+}
+.feed-header p {
+    color: grey;
+}
+
+.feed-body {
+	display: flex;
+    img {
+        width: 400px;
+    }
+}
+
+.feed-footer {
+	text-align: center;
+}
